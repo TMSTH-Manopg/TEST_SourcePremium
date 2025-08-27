@@ -43,32 +43,8 @@ DEFINE INPUT PARAMETER TABLE FOR RiskCover.
 DEFINE INPUT PARAMETER TABLE FOR VATDlts.
 DEFINE INPUT PARAMETER TABLE FOR PrintDoc.
 // --------------- Input Paremeter 
+// ลบ Comment 
 
-/* 
-DEF VAR prtSCH        AS LOGICAL INIT False .
-DEF VAR prtCER        AS LOGICAL INIT False .
-DEF VAR prtRCP        AS LOGICAL INIT False .
-DEF VAR prtATT        AS LOGICAL INIT False .
-DEF VAR prtEXT        AS LOGICAL INIT False .
-DEF VAR prtJKT        AS LOGICAL INIT False .
-DEF VAR prtCRD        AS LOGICAL INIT False .
-DEF VAR prtLST        AS LOGICAL INIT False .
-DEF VAR prtOriginal   AS LOGICAL INIT False .
-DEF VAR prtCopy       AS LOGICAL INIT False .
-
-//เลือกเอกสารปริ้น   Default   หน้าตาราง ,  Attach ,  Receipt
-ASSIGN  
-prtSCH      =   TRUE    // หน้าตาราง
-prtCER      =   FALSE   // Certify
-prtRCP      =   TRUE    // Receipt
-prtATT      =   TRUE    // Attach
-prtEXT      =   FALSE   // EXT CLUS
-prtJKT      =   FALSE   // JKT CLS
-prtCRD      =   FALSE   // Card
-prtLST      =   FALSE   //   ?? 
-prtOriginal =   TRUE    //  ตัวจริง
-prtCopy     =   FALSE . //  สำเนา
-     */ 
 /* สร้าง Object หลัก  jsonMain */
 jsonMain   =  NEW JsonObject() .
 jsonclient =  NEW JsonObject() .
